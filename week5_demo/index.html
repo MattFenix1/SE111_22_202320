@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Bryan Duffy">
+    <meta name="description" content="W5 Demo">
+
+    <title>W5 Demo | Tables and Forms</title>
+</head>
+<body>
+
+    <h1>Basic Form Demo</h1>
+
+    <h2>Form w/o Table [boooooo! BAD!]</h2>
+
+    <form method="" action="">
+
+        <!--labels are used to match with input elements
+        
+            for attribute value of <label> MATCHES name attribute and id attribute of <input>
+        
+        -->
+
+        <!--FIRST NAME-->
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+
+        <br>
+        <!--LAST NAME-->
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+
+        <br>
+        <!--EMAIL-->
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" required>
+
+        <br>
+        <!--SUBMIT BUTTON-->
+        <input type="submit" value="SUBMIT!">
+
+    </form>
+
+    <hr>
+
+    <h2>From w/ Table[YAAAAAAY :D]</h2>
+    
+    <form>
+        <table><!--form element holds everything; method & action applied here-->
+            <tbody><!--REQUIRED for tables-->
+
+                <!--organize and develop row by row-->
+                <!--if made well first time, can be reused-->
+                <!--NEW ROW: FIRST NAME -->
+                <tr>
+                    <!--LABEL-->
+                    <td>
+                        <label for="first">First Name:</label>
+                    </td>
+
+                    <!--INPUT-->
+                    <td>
+                        <input type="text" name="first" id="first">
+                    </td>
+                </tr>
+                
+                <!--NEW ROW: LAST NAME -->
+                <tr>
+                    <!--LABEL-->
+                    <td>
+                        <label for="last">Last Name:</label>
+                    </td>
+
+                    <!--INPUT-->
+                    <td>
+                        <input type="text" name="last" id="last">
+                    </td>
+                </tr>
+
+                <!--NEW ROW: EMAIL -->
+                <tr>
+                    <!--LABEL-->
+                    <td>
+                        <label for="email2">Email:</label>
+                    </td>
+
+                    <!--INPUT-->
+                    <td>
+                        <input type="text" name="email2" id="email2" placeholder="you@extension">
+                    </td>
+                </tr>
+                
+                <!--TEXTBOX <textarea>-->
+                <tr>
+
+                    <!--LABEL-->
+                    <td>
+                        <label for="comments">Comments:</label>
+                    </td>
+                    <!--INPUT-->
+                    <td>
+                        <textarea name="comments" id="comments" placeholder="Leave your comment here..." rows="10" cols="21"></textarea>
+                    </td>
+                </tr>
+
+                <!--NON TEXT INPUT-->
+                
+
+                <!--NEW ROW: SUBMIT BUTTON -->
+                <tr>
+                    <!--LABEL-->
+                    <td>
+
+                    </td>
+
+                    <!--INPUT-->
+                    <td>
+                        <input type="submit" value="submit!">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </form>
+
+</body>
+</html>
