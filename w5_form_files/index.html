@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bryan Duffy">
+    <meta name="description" content="Default HTML Page for SE 111">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Week 5 | Tables and Forms</title>
+</head>
+<body>
+    <!--Build your Table and Form here-->
+    <h1>Birthday Party Registration Form</h1>
+    
+    <form method="get" action="confirm.html">
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <h2>Labels</h2>
+                    </td>
+                
+                    <td>
+                        <h2>Form Fields</h2>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="gfirst">Parent/Guardian Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="gfirst" id="gfirst" placeholder="First Name" required><br>
+                        <input type="text" name="glast" id="glast" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cfirst">Child's First Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="cfirst" id="cfirst" placeholder="Child's First Name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="age">Child's Age</label>
+                    </td>
+                    <td>
+                        <input type="text" name="age" id="age" placeholder="Child's Age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Date and Time</h2>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="date">Date</label>
+                    </td>
+                    <td>
+                        <input type="date" name="date" id="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="time">Start Time</label>
+                    </td>
+                    <td>
+                        <input type="time" name="time" id="time" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="guests">Number of Guests</label>
+                    </td>
+                    <td>
+                        <input type="number" name="guests" id="guests" value="5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Food</h2>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="size">Size</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="size" id="sm"> sm
+                        <input type="radio" name="size" id="md"> med
+                        <input type="radio" name="size" id="lg"> lg
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="drinks">Drinks</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="drinks1" id="coke"><label for="drinks1">Coke</label><br>
+                        <input type="checkbox" name="drinks2" id="sprite"><label for="drinks2">Sprite</label><br>
+                        <input type="checkbox" name="drinks3" id="fruit punch"><label for="drinks3">Fruit Punch</label><br>
+                        <input type="checkbox" name="drinks4" id="lemonade"><label for="drinks4">Lemonade</label><br>
+                        <input type="checkbox" name="drinks5" id="iced tea"><label for="drinks5">Iced Tea</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cake">Cake</label>
+                    </td>
+                    <td>
+                        <select name="cake">
+                            <option>Chocolate</option>
+                            <option>Vanilla</option>
+                            <option>I'll bring my own</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h2>Decorations</h2>
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="colors">Color Scheme</label>
+                    </td>
+                    <td>
+                        Choose a color scheme for the party!!!<br>
+                        <input type="color" name="colors" id="colors">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="comments">Additional Comments</label>
+                    </td>
+                    <td>
+                        <textarea name="comments" placeholder="Please add any additional comments here."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+                        <input type="submit" value="SUMBIT!!!">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+    </form>
+    
+</body>
+</html>

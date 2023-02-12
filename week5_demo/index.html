@@ -107,8 +107,80 @@
                 </tr>
 
                 <!--NON TEXT INPUT-->
-                
+                <!--<select> element creates a drop down menu-->
+                <tr>
 
+                    <!--LABEL-->
+                    <td>
+                        <label for="faveColor">Pick Your Favorite Color:</label>
+                    </td>
+
+                    <!--Input-->
+                    <td>
+                        <select name="faveColor">
+
+                            <option value="red">RED</option>
+                            <option value="green">GREEN</option>
+                            <option value="blue">BLUE</option>
+
+                        </select>
+                    </td>
+                </tr>
+
+                <!--RADIO BUTTON: 'multiple choice', small circular buttons; USER RESTRICTED TO ONE out of the set when name value matches-->
+
+                <tr>
+
+                    <!--LABEL-->
+                    <td>
+                        <label for="study">Program of Study:</label>
+                    </td>
+                    
+                    <!--INPUT-->
+                    <td>
+                        <input type="radio" name="study" value="SE">Software Engineering <br>
+                        <input type="radio" name="study" value="CYB">Cybersecurity <br>
+                        <input type="radio" name="study" value="NE">Networking <br>
+                        <input type="radio" name="study" value="WD">Web Development <br>
+                    </td>
+                
+                </tr>
+
+                <!--CHECKBOXES: option for MULTIPLE replies from user-->
+                <tr>
+
+                    <td>
+                        <label for="vehicle">Select Your Vehicles(s)</label>
+                    </td>
+
+                    <td>
+                        <input type="checkbox" name="vehicle1" value="car">Car <br>
+                        <input type="checkbox" name="vehicle2" value="roci">Rocinante <br>
+                        <input type="checkbox" name="vehicle3" value="mech">Gundam Warrior <br>
+                        <input type="checkbox" name="vehicle4" value="motorcycle">Motorcycle <br>
+                        <input type="checkbox" name="vehicle5" value="bike">Bicycle <br>
+                        <input type="checkbox" name="vehicle6" value="dragon">Drogon <br>
+                        <input type="checkbox" name="vehicle7" value="horse">Roach <br>
+                    </td>
+
+                </tr>
+
+                <!--DATE/TIME-->
+                <tr>
+
+                    <td>
+                        <label type="date">Date: </label>
+                    </td>
+
+                    <td>
+                        <input type="date" name="date" id="date">
+                    </td>
+
+
+
+                </tr>
+
+                <!--SUBMMIT BUTTON-->
                 <!--NEW ROW: SUBMIT BUTTON -->
                 <tr>
                     <!--LABEL-->
